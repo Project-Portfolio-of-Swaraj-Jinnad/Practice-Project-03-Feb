@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url(/Assets/pexels-maxyne-barcel-10402282\ 1.png);
+   background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+button{
+    background-color: red;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: 700;
+    width: fit-content;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 500;
+}
+nav ul li{
+    text-decoration: none;
+    font-weight: 900;
+    color: yellow;
+}
+.middle h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    font-weight: 700;
+    color: yellow;
+    text-align: center;
+}
+.money{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+}
+footer{
+    display: flex;
+    justify-content:end;
+    
+}
